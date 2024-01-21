@@ -1,76 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="style.css">
+ <!DOCTYPE html>
+<html>
+ <head>
+<body style="background-color:rgb(240, 244, 245);"></body>
+<link type="text/css" rel="stylesheet" href="https://www.dropbox.com/s/trsldt0me90jzs8/resume.css"/>
+<title></title>
 </head>
 <body>
-    <header>
-        <h1>B.saipavani</h1>
-        <p>Java Developer</p>
-    </header>
-    <section>
-      <h2><u>career objective</u></h2>
-      <p>Motivated to be detailed oriented seeking a challenging entry level position in the IT industry to leverage academic and practical skills,contributing while enhancing personal and professional growth.
+<div id="header">
+<h1 id="name">BACHU SAI PAVANI</h1>
+         <a href="mailto:saipavanibachu@gmail.com" target="_blank"><h2 id="email">saipavanibachu@gmail.com</h2></a>
+         <h2 id="contact">+91 7702847278</h2>
+     </div>
+     <div class="left">
+     </div>
+     <div class="right">
+            <h3>CV Highlights</h3>
+            <p>
+            <ul>
+                <li>Currently going through CS253 – Web Application Engineering and CS61A – Structure & Interpretation of Computer Programs</li>
+                <li>Learnt basic Python, JavaScript, HTML, CSS on Codecademy.com.</li>
+                <li>An independent, dedicated, efficient person. These attributes are proved through the series of courses I have taken or I am taking as of now independently through online platforms.</li>
+                <li>Good Communication Skills, Presentation Skills, attitude towards leadership, authorisation and delegation, conflict resolution and negotiation and a very good team worker.</li></ul>
+            </p>
+             
+            <h3>Educational Qualifications</h3>
+            <table>
+                <tr id="heading">
+                    <td>Qualification</td>
+                    <td>Board</td>
+                    <td>Percentage / CGPA</td>
+                    <td>Year</td>
+                </tr>
+                <tr>
+                    <td>ssc</td>
+                    <td>St joseph's high school</td>
+                    <td>8.2</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Intermediate(MPC)</td>
+                    <td>narayana junior college</td>
+                    <td>8.0</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Bachelor Of Science(BSC)</td>
+                    <td>st anns college for women</td>
+                    <td>7.4</td>
+                    <td>2021</td>
+                </tr>
+                
+                <tr>
+                    <td>Master of Computer Application(MCA)</td>
+                    <td>Osmania University ,Telangana</td>
+                    <td>7.8</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+            
+            <h3>Technical Skills</h3>
+            <p>
+            <ul>
+                <li>
+                <span id="course-name">Operating Systems:</span> DOS, Windows 98, Windows 2000, Windows XP, Windows NT, Windows Server 2003, Windows Vista, Windows 7, Macintosh Computers (OS X), Linux (Ubuntu, Fedora)</li>
+                <li>
+                <span id="course-name">Application Software:</span> Office 97-2003; Office XP, Office 2007, Office for Mac 2011, iWork ’09, Sage Accounting Software, Sage 50 (Accounting Software), Excel 2003/2007 for Financial Modelling spreadsheets.</li>
+                <li>
+                <span id="course-name">Programming Skills:</span>HTML, CSS, Python, JavaScript, learning C and C++</li></ul>
+            </p>
+           
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 1%; background-color: #e9eeec;}
+.css {width: 1%; background-color: #eef2f5;}
+.js {width: 1%; background-color: #f8f6f6;}
+
+</style>
+</head>
+<body>
+
+<h3>My Skills</h3>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
 
 
-      </p>
-    </section>
-    <div class="line">
-    <section id="contact">
-      <h2><u>Contact</u></h2>
-      <div>
-        <h3>Phone</h3>
-        <a href="tel:+7702847278">770-284-7278</a>
-        <h3>Email</h3>
-        <a href="mailto:saipavanibachu@gmail.com">saipavanibachu@gmail.com</a>
-        <h3>address</h3>
-        <a href="#">patancheru,Hyderabad</a>
-      </div>
-
-    </section>
-    <section>
-      <h2><u>Language</u></h2>
-      <ul>
-        <li>English</li>
-        <li>Hindi</li>
-        <li>telugu</li>
-      </ul>
-    </section>
-
-    <section id="education">
-        <h2><u>Education</u></h2>
-        <div class="degree">
-          <h3>BSc in Computer science</h3>
-          <p>st anns college for women</p>
-          <p>Graduated: 2021</p>
-          <br>
-            <h3>MCA(Master in Computer Science)</h3>
-            <p>Aurora pg college </p>
-            <p>Graduated: dec 2024</p>
-        </div>
-    </section>
-  </div>
-    <section id="skills">
-        <h2><u>Skill</u></h2>
-        <div class="skill">
-            <h3>HTML</h3>
-            <div class="progress" data-value="90"></div>
-        </div>
-        <div class="skill">
-            <h3>CSS</h3>
-            <div class="progress" data-value="80"></div>
-        </div>
-        <div class="skill">
-            <h3>JavaScript</h3>
-            <div class="progress" data-value="75"></div>
-        </div>
-        
-    </section>
-
-    <script src="text.js"></script>
 </body>
+</html>
+
+            <h3>Personal Information:</h3>
+            <p>
+            <ul>
+                <li>
+                A young, determined hard and smart working person. I believe in task based roles and complete ownership of work.
+                <li>
+                <span id="course-name">Languages Known:</span>English, Hindi and Telugu </li>
+                <li>
+                <span id="course-name">Hobbies:</span> video games, surfing Internet, self-learning through e-courses.</li> </ul>
+           
+            <h3>Declaration</h3>
+            <p> I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief.</p>
+
+     </div>
+     <div id="footer"></div>
+    </body>
 </html>
